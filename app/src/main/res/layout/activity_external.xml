@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".ExternalActivity">
+
+    <Button
+        android:text="@string/buat_file"
+        android:id="@+id/buttonBuatFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="@string/ubah_file"
+        android:id="@+id/buttonUbahFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="@string/baca_file"
+        android:id="@+id/buttonBacaFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="@string/hapus_file"
+        android:id="@+id/buttonHapusFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textBaca"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:gravity="top|left"
+        android:padding="5dp"
+        android:textColorHint="#000"
+        android:hint="@string/hasil_baca_file"
+        android:inputType="textMultiLine"
+        tools:ignore="RtlHardcoded,TextViewEdits" />
+
+</LinearLayout>
